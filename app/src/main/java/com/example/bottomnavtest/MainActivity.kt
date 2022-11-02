@@ -27,9 +27,7 @@ class MainActivity : AppCompatActivity() {
         when(it.itemId) {
 
             R.id.mi_home -> setCurrentFragment(firstFragment)
-
             R.id.mi_messages -> setCurrentFragment(secondFragment)
-
             R.id.mi_profile -> setCurrentFragment(thirdFragment)
         }
         true
